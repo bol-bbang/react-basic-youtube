@@ -9,6 +9,7 @@
   transition: transform 250ms ease-in;
   box-shadow: 2px 2px 2px #e0dcdc;
   padding: 7px 10px;
+  height: 100%;
 }
 .video:hover {
   cursor: pointer;
@@ -20,6 +21,7 @@
 
 .thumnail {
   width: 35%;
+  height: 100%;
 }
 .title,
 .channel {
