@@ -1,4 +1,21 @@
 .app {
-  max-width: 75rem;
+  max-width: 65rem;
   margin: 0 auto;
+}
+
+.content {
+  display: flex;
+}
+
+.detail {
+  flex: 1 1 70%;
+}
+.list {
+  flex: 1 1 30%;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
 }

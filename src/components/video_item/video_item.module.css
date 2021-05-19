@@ -1,6 +1,11 @@
 .container {
   padding: 0.2em;
+}
+.container.list {
   width: 50%;
+}
+.container.grid {
+  width: 100%;
 }
 .video {
   display: flex;
@@ -26,6 +31,10 @@
 .title,
 .channel {
   font-size: 0.8em;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 
 .channel {

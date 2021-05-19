@@ -1,0 +1,9 @@
+.detail {
+  padding: 0.2em;
+}
+.player {
+  border: 0;
+}
+.description {
+  white-space: pre-wrap;
+}
